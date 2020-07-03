@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img id="logo" src="https://cloud-computing-03121995.s3.ap-south-1.amazonaws.com/cloud-computing-logo-concept.jpg">
+    <img id="logo" src="https://images.static-collegedunia.com/public/college_data/images/logos/1589790676112018648848892482726766654702028085722509n.jpg">
     <s3uploader/>
   </div>
 </template>
