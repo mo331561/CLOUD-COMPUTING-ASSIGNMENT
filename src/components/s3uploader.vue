@@ -1,13 +1,13 @@
 <template>
   <div class="hello">
-    <h1>CC Video Uploader</h1>
+    <h1>Upload Video To Cloud /h1>
 
     <div v-if="!image">
       <h2>Select an Video</h2>
       <input type="file" @change="onFileChange">
     </div>
     <div v-else>
-      <img :src="image" />
+      
       <button v-if="!uploadURL" @click="removeImage">Remove Video</button>
       <button v-if="!uploadURL" @click="uploadImage">Upload Video</button>
     </div>
