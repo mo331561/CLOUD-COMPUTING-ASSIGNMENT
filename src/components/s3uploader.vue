@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>Upload Video To Cloud /h1>
+    <h1>Upload Video On S3 </h1>
 
     <div v-if="!image">
       <h2>Select an Video</h2>
